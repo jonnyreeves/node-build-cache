@@ -1,0 +1,16 @@
+{
+  "name": "node-build-cache",
+  "version": "0.0.1",
+  "description": "Symlink-based node_modules caching utility for speeding up subsequent `npm install` operations in a Continuous Integration environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "rimraf": "^2.6.1",
+    "wordwrap": "^1.0.0"
+  }
+}
